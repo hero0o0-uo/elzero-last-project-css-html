@@ -1,0 +1,27 @@
+/* start global */
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #f1f5f9;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+/* end global */
+/* start sidebar */
+.sidebar {
+  width: 2.813rem;
+  top: 0;
+  left: 0;
+}
+
+.sidebar h1 {
+  text-transform: capitalize;
+}
+
+.sidebar ul {
+}
+/* end sidebar */
