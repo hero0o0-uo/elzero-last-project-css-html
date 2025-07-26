@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/main.css" />
-    <link rel="stylesheet" href="./css/framework.css" />
     <!-- font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -17,38 +16,107 @@
     <title>Document</title>
   </head>
   <body>
-    <main class="page d-flex position: relative">
-      <div class="sidebar h-full bg-white p-absolute">
-        <h1 class="fs-13 txt-c">elzero</h1>
-        <ul class="txt-c">
-          <li>
-            <a href=""><i class="fa-solid fa-chart-bar"></i></a>
+    <main class="page">
+      <div class="sidebar">
+        <h3>elzero</h3>
+        <ul>
+          <li class="active">
+            <a href=""
+              ><i class="fa-solid fa-chart-bar fa-fw"></i>
+              <span>dashboard</span>
+            </a>
           </li>
           <li>
-            <a href=""><i class="fa-solid fa-gear"></i></a>
+            <a href=""
+              ><i class="fa-solid fa-gear fa-fw"></i>
+              <span>settings</span>
+            </a>
           </li>
           <li>
-            <a href=""><i class="fa-regular fa-user"></i></a>
+            <a href=""
+              ><i class="fa-regular fa-user fa-fw"></i>
+              <span>profile</span>
+            </a>
           </li>
           <li>
-            <a href=""><i class="fa-solid fa-share-nodes"></i></a>
+            <a href=""
+              ><i class="fa-solid fa-share-nodes fa-fw"></i>
+              <span>projects</span>
+            </a>
           </li>
           <li>
-            <a href=""><i class="fa-solid fa-graduation-cap"></i></a>
+            <a href=""
+              ><i class="fa-solid fa-graduation-cap fa-fw"></i>
+              <span>courses</span>
+            </a>
           </li>
           <li>
-            <a href=""><i class="fa-regular fa-circle-user"></i></a>
+            <a href=""
+              ><i class="fa-regular fa-circle-user fa-fw"></i>
+              <span>friends</span>
+            </a>
           </li>
           <li>
-            <a href=""><i class="fa-regular fa-file"></i></a>
+            <a href=""
+              ><i class="fa-regular fa-file fa-fw"></i>
+              <span>files</span>
+            </a>
           </li>
           <li>
-            <a href=""><i class="fa-regular fa-credit-card"></i></a>
+            <a href=""
+              ><i class="fa-regular fa-credit-card fa-fw"></i>
+              <span>plans</span>
+            </a>
           </li>
         </ul>
       </div>
       <div class="content">
-        <header></header>
+        <header>
+          <div class="container">
+            <div class="notf">
+              <i class="fa-regular fa-bell"></i>
+              <img src="./images/avatar.png" alt="" />
+            </div>
+            <div class="search-bar">
+              <input type="text" name="search" placeholder="type a key word" />
+            </div>
+          </div>
+          <h1>dashboard</h1>
+        </header>
+
+        <div class="box-container">
+          <div class="welcome-box">
+            <header>
+              <div class="left">
+                <h3>welcome</h3>
+                <p>elzero</p>
+                <img src="./images/avatar.png" alt="" />
+              </div>
+              <div class="right">
+                <img src="./images/welcome.png" alt="" />
+              </div>
+            </header>
+            <footer>
+              <div class="info">
+                <div class="box">
+                  <p>osama elzero</p>
+                  <p>developer</p>
+                </div>
+                <div class="box">
+                  <p>80</p>
+                  <p>projects</p>
+                </div>
+                <div class="box">
+                  <p>$8500</p>
+                  <p>earned</p>
+                </div>
+              </div>
+              <div class="button">
+                <button>profile</button>
+              </div>
+            </footer>
+          </div>
+        </div>
       </div>
     </main>
   </body>
